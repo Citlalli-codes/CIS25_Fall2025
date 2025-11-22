@@ -14,7 +14,7 @@ class Product {
     float price;
     
     //constructor initialize the values
-     Product(int id, string name, float price){
+     Product(int id, string name, float price):id(id), name(name), price(price){
          cout << "The constructor is called" << endl;
      }
      
