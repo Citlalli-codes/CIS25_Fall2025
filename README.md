@@ -33,3 +33,17 @@
 notes: 
 - when passing parameters 'Product(int id, string name, float price)'
 -  initializer list ': id(id), name(name), price(price)' to assigns the parameters to class variables
+
+## Week 6:
+**Module 7:**
+* How to use struct, pointers, dynamic memory allocations and binary search
+#### What the code does:
+- A struct named Item is defined which stores two pieces of information for each item string name and int id 
+- Uses new[] to dynamically allocate memory of the array of 100 items 
+- Inside the for loop it asks the user to input item name and id which the data is stored in the inventory array
+- The for loop ends until it populate the array at least 100 items
+- The sort function sorts the array alphabetically by name of each item
+- Asks the user for an ID to search for
+- The binary search function finds the search item ID 
+- Once it finds its match of the id it will display the item name and ID
+- The program free the dynamically allocated memory using delete[] 
