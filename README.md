@@ -46,4 +46,39 @@ notes:
 - Asks the user for an ID to search for
 - The binary search function finds the search item ID 
 - Once it finds its match of the id it will display the item name and ID
-- The program free the dynamically allocated memory using delete[] 
+- The program free the dynamically allocated memory using delete[]
+
+## Week 7:
+**Module 4:**
+* How to build a simple menu using if and nested if statements 
+#### What the code does:
+* module 4 part 1:
+  - declared integer variable called option for user input
+  - displays the Menu options
+  - Once the user inputs an integer it stores in options variable
+  - If the user inputs the integer 1 it will output "Item added"
+  - If the user inputs the integer 2 it will output "Displaying Item"
+  - If the user inputs the integer 3 it will output "Exiting"
+  - If the user inputs other than the first three integers it will output "Invalid Input!"
+ 
+* module 4 part 2:
+* compares which of the three numbers is the largest number
+  - declared three float variables called num1, num2, num3 to store the three numbers
+  - displays to "enter three numbers"
+  - User inputs three numbers which stores the numbers in the three float variables
+  - First checks to see if num1 is larger than num2 and num3, if yes the it will display "Largest number", if not it will go to the next condition
+  - Then checks to see if num2 is larger than num1 and num3, if yes the it will display "Largest number", if not it will go to the next condition
+  - If num3 is larger than num1 and num2, if yes the it will display "Largest number"
+  - Once it goes through each condition it will then end the program
+  
+
+
+
+
+
+
+
+
+
+
+
