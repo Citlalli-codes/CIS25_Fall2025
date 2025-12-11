@@ -71,8 +71,21 @@ notes:
   - If num3 is larger than num1 and num2, if yes the it will display "Largest number"
   - Once it goes through each condition it will then end the program
   
-
-
+## Week 8:
+**Module 8:**
+* How to build a Bank account simulation that manages users balance, purchases and save each transaction to a file
+#### What the code does:
+- Created an object called userAccount
+- prints the name of the user account
+- calls currentBalance function
+- displays the current balance you have now
+- calls deposit function
+- the method deposit funds (adds balance)
+- writes each deposit to transaction.txt
+- calls the payment function  four times for 4 payments
+- the purchase method deducts money from balance by 4 purchases 
+- writes each purchase to transaction.txt
+- Finally Calls finalBalance function to print the final balance
 
 
 
